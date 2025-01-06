@@ -1,0 +1,104 @@
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.editor-wrapper {
+  margin-top: 1rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-bar {
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-bar button {
+  margin-right: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  background: white;
+  cursor: pointer;
+}
+
+.menu-bar button:hover {
+  background: #f0f0f0;
+}
+
+.menu-bar button.is-active {
+  background: #e0e0e0;
+}
+
+.tts-controls {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 0.25rem;
+}
+
+.tts-controls button {
+  margin-right: 1rem;
+}
+
+.tts-controls select {
+  margin-right: 1rem;
+}
+
+.tts-settings {
+  margin-top: 0.5rem;
+}
+
+.tts-settings label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.code-block-wrapper {
+  position: relative;
+  margin: 1rem 0;
+  background: #f5f5f5;
+  border-radius: 6px;
+}
+
+.code-block-header {
+  padding: 8px;
+  background: #e0e0e0;
+  display: flex;
+  justify-content: flex-end;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.language-selector {
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  font-size: 14px;
+  outline: none;
+}
+
+.code-block {
+  font-family: 'Fira Code', monospace !important;
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+  tab-size: 2;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  overflow-x: auto;
+}
+
+.code-block code {
+  font-family: inherit;
+  background: none !important;
+  padding: 0 !important;
+
+}
