@@ -1,4 +1,4 @@
-#Tiptap extension
+# Tiptap extension
 
 Steps
 npm install
